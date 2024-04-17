@@ -19,7 +19,7 @@ public class GetFileList {
     }
 
     public static void main(String[] args) {
-        File directory = new File("C:/Users/aashutosh/Desktop/Practice/Poc-9/index.txt"); // Specify the directory path here
+        File directory = new File("Problem_6"); // Specify the directory path here
 
         if (directory.exists() && directory.isDirectory()) { // Check if directory exists and is a directory
             int i = getFilesInDirectory(directory);
