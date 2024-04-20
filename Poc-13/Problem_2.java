@@ -8,6 +8,9 @@ public class Problem_2 {
         stringList.add("is");
         stringList.add("fun");
 
+        for (String str : stringList) {
+            System.out.println(str);
+        }
         String[] stringArray = stringList.toArray(new String[0]);
 
         for (String str : stringArray) {
