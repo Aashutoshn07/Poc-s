@@ -30,7 +30,7 @@ public class SearchCollectionElement {
         System.out.println(monthlist);
         System.out.println(weeklist);
 
-        String searchMonth = "April";
+        String searchMonth = "May";
         int index = Collections.binarySearch(monthlist, searchMonth);
 
         if (index >= 0) {
